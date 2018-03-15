@@ -2,7 +2,7 @@
         "name"              : "PluginXY",
         "marketplaceName"   : {"de":"German display name of plugin","en":"English display name of plugin"},
         "namespace"         : "XY",
-        "type"              : "template",
+        "type"              : "service",
         "version"           : "1.0.0",
         "license"           : "The license for the plugin",
         "isClosedSource"    : "Determines if your plugin is closed source or open source",
@@ -10,7 +10,7 @@
         "price"             : 0.00,
         "description"       : "The description for your plugin",
         "shortDescription"  : {"de":"German short description","en":"English short description"},
-        "categories"        : ["3517", "3518"],
+        "categories"        : ["3600"],
         "keywords"          : ["plugins", "template"],
         "author"            : "Your name",
         "authorIcon"        : "icon_author_xs.png",
@@ -22,5 +22,6 @@
         "javaScriptFiles"   : [],
         "require"           : [],
         "dependencies"      : [],
-        "runOnBuild"        : []
+        "runOnBuild"        : [],
+		"webhookUrl"        : "url",
     }
